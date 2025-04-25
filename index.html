@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">More</a>
+                <div class="dropdown-content">
+                    <a href="#skills">Skills & Technologies</a>
+                    <a href="#hackathon">Hackathon</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="content-container">
+                <div class="image-container">
+                    <img src="images/MYPP.jpg" alt="Your Photo" class="profile-image">
+                </div>
+                <div class="text-container">
+                    <h3>Nilesh Ranjan Sahu</h3>
+                    <p>Hi, I'm Nilesh, a dedicated Computer Science student with a strong foundation in Data Science and Core CS Fundamentals.</p>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="section">
+            <h2>Resume</h2>
+            <div class="content-container">
+                <div class="resume-content">
+                    <div class="resume-section">
+                        <h3>Professional Skillset</h3>
+                        <div class="skillset-grid">
+                            <div class="skillset-category">
+                                <h4>Programming Languages</h4>
+                                <ul>
+                                    <li>Python</li>
+                                    <li>Java</li>
+                                    <li>C++</li>
+                                </ul>
+                            </div>
+                            <div class="skillset-category">
+                                <h4>Databases</h4>
+                                <ul>
+                                    <li>MySQL</li>
+                                    <li>MongoDB</li>
+                                    <li>Firebase</li>
+                                </ul>
+                            </div>
+                            <div class="skillset-category">
+                                <h4>Tools & Platforms</h4>
+                                <ul>
+                                    <li>Git</li>
+                                    <li>VS Code</li>
+                                    <li>IntelliJ</li>
+                                    <li>Eclipse</li>
+                                </ul>
+                            </div>
+                            <div class="skillset-category">
+                                <h4>Big Data Tools and Frameworks</h4>
+                                <ul>
+                                    <li>Hadoop</li>
+                                    <li>Hive</li>
+                                    <li>Pig</li>
+                                    <li>HBase</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume-section">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4>Lovely Professional University</h4>
+                            <p class="location">Phagwara, Punjab</p>
+                            <p class="degree">Bachelor of Technology (Pursuing)</p>
+                            <p class="details">Computer Science and Engineering</p>
+                            <p class="score">CGPA: 7.97</p>
+                        </div>
+                        <div class="education-item">
+                            <h4>Pragati Science Higher Secondary School</h4>
+                            <p class="location">Bhawanipatna, Odisha</p>
+                            <p class="degree">Intermediate</p>
+                            <p class="period">Mar' 2020 – May' 2021</p>
+                            <p class="score">Percentage: 78%</p>
+                        </div>
+                        
+                    </div>
+                    <div class="download-cv">
+                        <a href="images/Copy of My Resume As DS.pdf" download class="download-btn">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <!-- First Project -->
+                <div class="project-card">
+                    <div class="project-carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slide">
+                                <img src="images/P1Pic1.png" alt="Project 1">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="images/Screenshot 2025-04-23 at 6.11.02 PM.png" alt="Project 1">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="images/Screenshot 2025-04-23 at 6.13.53 PM.png" alt="Project 1">
+                            </div>
+                        </div>
+                        <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                        <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                        <div class="carousel-dots"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sa Yo Pillow</h3>
+                        <p>Engineered an AI-powered pillow using sensor data and Streamlit to deliver accurate real-time stress predictions.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn">View Project</a>
+                            <a href="#" class="btn">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Project -->
+                <div class="project-card">
+                    <div class="project-carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slide">
+                                <img src="images/Screenshot 2025-04-23 at 6.25.19 PM.png" alt="Project 2">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="images/Screenshot 2025-04-23 at 5.50.02 PM.png" alt="Project 2">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="images/Screenshot 2025-04-23 at 5.53.05 PM.png" alt="Project 2">
+                            </div>
+                        </div>
+                        <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                        <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                        <div class="carousel-dots"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>GDP Visual Analyzer</h3>
+                        <p>Leveraged Python tools to process and visualize GDP per capita data, delivering insights on economic growth and quality of life.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn">View Project</a>
+                            <a href="#" class="btn">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <h2>Certifications</h2>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <img src="images/GFG.pdf" alt="Certificate 1">
+                    <div class="certificate-info">
+                        <h3>Complete Machine Learning And Data Science program</h3>
+                        <p>GeeksForGeeks </p>
+                        <p class="certificate-date">Date: Jun 2024</p>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <img src="images/Coursera.pdf" alt="Certificate 2">
+                    <div class="certificate-info">
+                        <h3>R Programming</h3>
+                        <p>JOHNS HOPKINS UNIVERSITY(Coursera)</p>
+                        <p class="certificate-date">Date: Apr 2024</p>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <img src="images/NPTEL.pdf" alt="Certificate 3">
+                    <div class="certificate-info">
+                        <h3>Cloud Computing</h3>
+                        <p>NPTEL</p>
+                        <p class="certificate-date">Date: Oct 2024</p>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <img src="images/Excel.pdf" alt="Certificate 4">
+                    <div class="certificate-info">
+                        <h3>Excel Skills for Data Analytics and Visualization Specialization</h3>
+                        <p>MACQUARIE
+                            University(Coursera)</p>
+                        <p class="certificate-date">Date: Mar 2024</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-container">
+                <div class="skills-grid skills-grid-4-3">
+                    <div class="skill-item">
+                        <img src="images/icons8-java-144.png" alt="Python">
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/icons8-python-144.png" alt="Java">
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/icons8-r-project-96.png" alt="C++">
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/icons8-c++-144.png" alt="HTML5">
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/icons8-mysql-144.png" alt="CSS3">
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/icons8-linux-96.png" alt="JavaScript">
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/icons8-tableau-software-144.png" alt="SQL">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <div class="contact-container">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
